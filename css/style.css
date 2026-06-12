@@ -1148,14 +1148,15 @@ section { padding: 5rem 0; }
   .nav__mobile { display: flex; }
 
   /* Nav logo centrato su mobile */
+  .nav { justify-content: flex-end; }
+  .nav > .lang-switcher { display: none; }
   .nav__logo {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    width: 190px;
+    width: 238px;
     flex: none;
   }
-  .nav .lang-switcher { margin-left: auto; }
 
   .projects-grid {
     grid-template-columns: 1fr;
@@ -1348,7 +1349,7 @@ section { padding: 5rem 0; }
 
 @media (max-width: 900px) {
   .testimonials-grid { grid-template-columns: 1fr; }
-  .nav__logo { width: 190px; }
+  .nav__logo { width: 238px; }
 }
 
 /* ── Instagram feed section ── */
