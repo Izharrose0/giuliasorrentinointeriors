@@ -1147,6 +1147,16 @@ section { padding: 5rem 0; }
   .nav__hamburger { display: flex; }
   .nav__mobile { display: flex; }
 
+  /* Nav logo centrato su mobile */
+  .nav__logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 190px;
+    flex: none;
+  }
+  .nav .lang-switcher { margin-left: auto; }
+
   .projects-grid {
     grid-template-columns: 1fr;
   }
@@ -1168,6 +1178,9 @@ section { padding: 5rem 0; }
   .about-bio__logo-wrap {
     grid-column: 1;
     grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .about-bio__logo-img {
     width: 300px;
@@ -1175,6 +1188,7 @@ section { padding: 5rem 0; }
     background-size: 402px 804px;
     background-position: -43px -116px;
   }
+  .about-bio__tagline { text-align: center; }
   .about-page__portrait {
     grid-column: 1;
     grid-row: 2;
@@ -1190,6 +1204,10 @@ section { padding: 5rem 0; }
   .form-grid-2 { grid-template-columns: 1fr; }
 
   .services__list { grid-template-columns: 1fr; }
+
+  /* Filtri portfolio su una riga */
+  .portfolio-filter { gap: 0.4rem; flex-wrap: nowrap; }
+  .filter-btn { padding: 0.45rem 0.9rem; }
 
   .footer__inner { flex-direction: column; align-items: flex-start; }
   .footer__copy { text-align: left; }
