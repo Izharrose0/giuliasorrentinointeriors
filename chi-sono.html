@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chi Sono — Giulia Sorrentino Interiors</title>
+  <meta name="description" content="Giulia Sorrentino, interior designer con base in Sardegna (Cagliari) e a Milano. Progetta spazi residenziali e commerciali con un approccio su misura." />
+  <meta name="keywords" content="interior designer Sardegna, interior designer Cagliari, interior designer Milano, progettazione interni" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="nav scrolled">
+    <a href="index.html" class="nav__logo">
+      <span class="nav__logo-name" data-i18n="nav.logo-name">Giulia Sorrentino</span>
+      <span class="nav__logo-sub" data-i18n="nav.logo-sub">Interiors</span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="index.html" data-i18n="nav.portfolio">Lavori</a></li>
+      <li><a href="chi-sono.html" class="active" data-i18n="nav.about">Bio</a></li>
+      <li><a href="contatti.html" data-i18n="nav.contact">Contatti</a></li>
+    </ul>
+    <div class="lang-switcher">
+      <button class="lang-switcher__btn" data-lang="it">IT</button>
+      <span class="lang-switcher__sep"></span>
+      <button class="lang-switcher__btn" data-lang="en">EN</button>
+    </div>
+    <button class="nav__hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="nav__mobile">
+    <a href="index.html" data-i18n="nav.portfolio">Lavori</a>
+    <a href="chi-sono.html" data-i18n="nav.about">Bio</a>
+    <a href="contatti.html" data-i18n="nav.contact">Contatti</a>
+    <div class="lang-switcher" style="margin-left:0; margin-top:1rem;">
+      <button class="lang-switcher__btn" data-lang="it">IT</button>
+      <span class="lang-switcher__sep"></span>
+      <button class="lang-switcher__btn" data-lang="en">EN</button>
+    </div>
+  </div>
+
+  <section class="about-page-hero">
+    <div class="container">
+      <div class="about-page__grid">
+
+        <div class="about-bio__logo-wrap fade-in">
+          <div class="about-bio__logo-img" role="img" aria-label="Giulia Sorrentino Interiors"></div>
+          <p class="about-bio__tagline" data-i18n="bio.quote">Credo che la cura di ogni dettaglio sia un modo per mostrare amore, e che il vero lusso sia qualcosa di ben fatto</p>
+        </div>
+
+        <div class="about-page__portrait fade-in">
+          <img src="images/about/giulia.jpg" alt="Giulia Sorrentino" />
+        </div>
+
+        <div class="about-page__content fade-in fade-in-delay-1">
+          <p class="label" data-i18n="about.label">Interior Designer &amp; Stylist</p>
+
+          <p data-i18n="about.p1">Sono Giulia, Interior Designer e Stylist. Mi sono laureata nel 2016 presso IED Cagliari e, immediatamente dopo, mi sono trasferita a Milano dove ho completato la mia formazione con il Master in Interior Styling and Trends presso IED Milano.</p>
+          <p data-i18n="about.p2">Dopo diversi anni di progettazione e direzione artistica in cantiere per studi di architettura e imprese di costruzione milanesi, ho deciso di intraprendere la libera professione nella mia città, Cagliari.</p>
+          <p data-i18n="about.p3">Il mio obiettivo è offrire a ogni singolo cliente un servizio a 360°, che non si conclude con la progettazione degli interni, la definizione degli spazi e la scelta dei colori e delle finiture. Il mio lavoro si spinge oltre, seguendo il cantiere in ogni sua fase di realizzazione.</p>
+
+          <div class="services">
+            <h3 data-i18n="about.services.h3">Cosa faccio</h3>
+            <div class="services__list">
+              <div class="service-item">
+                <h4 data-i18n="about.s1.h4">Progettazione residenziale</h4>
+                <p data-i18n="about.s1.p">Appartamenti, ville e case private. Dal concept all'arredo, seguendo ogni fase con cura.</p>
+              </div>
+              <div class="service-item">
+                <h4 data-i18n="about.s2.h4">Spazi commerciali</h4>
+                <p data-i18n="about.s2.p">Uffici, showroom, negozi e spazi di hospitality con identità forte e funzionalità elevata.</p>
+              </div>
+              <div class="service-item">
+                <h4 data-i18n="about.s3.h4">Interior styling</h4>
+                <p data-i18n="about.s3.p">Restyling e cura dell'immagine di interni esistenti. Piccole variazioni, grande impatto.</p>
+              </div>
+              <div class="service-item">
+                <h4 data-i18n="about.s4.h4">Consulenza e direzione lavori</h4>
+                <p data-i18n="about.s4.p">Coordinamento di maestranze e fornitori. Il progetto viene seguito fino alla consegna delle chiavi.</p>
+              </div>
+            </div>
+          </div>
+
+          <div style="margin-top:3rem;">
+            <a href="contatti.html" class="btn btn--dark" data-i18n="about.cta">Inizia il tuo progetto</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="label" data-i18n="testimonials.label">Cosa dicono i clienti</p>
+        <h2 data-i18n="testimonials.h2">Parole che contano</h2>
+      </div>
+      <div class="testimonials-grid">
+        <blockquote class="testimonial fade-in">
+          <p class="testimonial__quote" data-i18n="testimonials.1.quote">Giulia ha trasformato il nostro appartamento in qualcosa che non avremmo mai immaginato. Ha ascoltato ogni nostra esigenza e le ha tradotte in uno spazio che è davvero nostro.</p>
+          <cite class="testimonial__cite">
+            <strong data-i18n="testimonials.1.name">Cliente — Residenziale</strong>
+          </cite>
+        </blockquote>
+        <blockquote class="testimonial fade-in fade-in-delay-1">
+          <p class="testimonial__quote" data-i18n="testimonials.2.quote">Professionalità, attenzione al dettaglio e una visione estetica che si percepisce in ogni scelta. Il nostro studio non è più lo stesso.</p>
+          <cite class="testimonial__cite">
+            <strong data-i18n="testimonials.2.name">Cliente — Commerciale</strong>
+          </cite>
+        </blockquote>
+        <blockquote class="testimonial fade-in fade-in-delay-2">
+          <p class="testimonial__quote" data-i18n="testimonials.3.quote">Affidarsi a Giulia significa avere una partner di progetto che ti guida con competenza e sensibilità. Il risultato finale ha superato ogni aspettativa.</p>
+          <cite class="testimonial__cite">
+            <strong data-i18n="testimonials.3.name">Cliente — Residenziale</strong>
+          </cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="index.html" class="footer__logo">
+          <img src="images/logo-footer.svg" class="footer__logo-img" alt="Giulia Sorrentino Interiors" />
+        </a>
+        <nav class="footer__links">
+          <a href="index.html" data-i18n="nav.portfolio">Lavori</a>
+          <a href="chi-sono.html" data-i18n="nav.about">Bio</a>
+          <a href="contatti.html" data-i18n="nav.contact">Contatti</a>
+        </nav>
+        <p class="footer__copy" data-i18n="footer.copy">&copy; 2024 Giulia Sorrentino Interiors. Tutti i diritti riservati.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/393406487121" class="whatsapp-fab" target="_blank" rel="noopener noreferrer" aria-label="Contatta su WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.558 4.12 1.535 5.845L0 24l6.335-1.509A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.017-1.377l-.36-.214-3.727.978.999-3.636-.234-.374A9.818 9.818 0 1112 21.818z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+  <script src="js/i18n.js"></script>
+</body>
+</html>
+

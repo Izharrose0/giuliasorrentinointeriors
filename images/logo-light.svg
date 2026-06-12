@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 70" width="520" height="70" role="img" aria-label="Giulia Sorrentino Interiors">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&amp;family=DM+Sans:wght@200;300&amp;display=swap');
+      .gs-name { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 300; font-size: 28px; letter-spacing: 0.22em; fill: #FFFFFF; }
+      .gs-sub  { font-family: 'DM Sans', system-ui, sans-serif; font-weight: 300; font-size: 10px; letter-spacing: 0.45em; fill: rgba(255,255,255,0.75); }
+    </style>
+  </defs>
+  <text x="50%" y="36" class="gs-name" text-anchor="middle" dominant-baseline="middle">GIULIA SORRENTINO</text>
+  <text x="50%" y="58" class="gs-sub"  text-anchor="middle" dominant-baseline="middle">INTERIORS</text>
+</svg>

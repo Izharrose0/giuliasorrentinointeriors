@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giulia Sorrentino Interiors — Interior Designer Sardegna e Milano</title>
+  <meta name="description" content="Lavori di Giulia Sorrentino: interior design residenziale e commerciale in Sardegna (Cagliari) e Milano. Progettazione su misura, pensata per durare." />
+  <meta name="keywords" content="interior designer Sardegna, interior designer Cagliari, interior designer Milano, progettazione residenziale, spazi commerciali" />
+  <meta property="og:title" content="Giulia Sorrentino Interiors" />
+  <meta property="og:description" content="Interior design residenziale e commerciale · Sardegna &amp; Milano." />
+  <meta property="og:image" content="images/savasta-partners/01.jpg" />
+  <meta property="og:type" content="website" />
+  <meta name="geo.region" content="IT-88" />
+  <meta name="geo.placename" content="Cagliari, Sardegna" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav class="nav scrolled">
+    <a href="index.html" class="nav__logo">
+      <span class="nav__logo-name" data-i18n="nav.logo-name">Giulia Sorrentino</span>
+      <span class="nav__logo-sub" data-i18n="nav.logo-sub">Interiors</span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="index.html" class="active" data-i18n="nav.portfolio">Lavori</a></li>
+      <li><a href="chi-sono.html" data-i18n="nav.about">Bio</a></li>
+      <li><a href="contatti.html" data-i18n="nav.contact">Contatti</a></li>
+    </ul>
+    <div class="lang-switcher">
+      <button class="lang-switcher__btn" data-lang="it">IT</button>
+      <span class="lang-switcher__sep"></span>
+      <button class="lang-switcher__btn" data-lang="en">EN</button>
+    </div>
+    <button class="nav__hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="nav__mobile">
+    <a href="index.html" data-i18n="nav.portfolio">Lavori</a>
+    <a href="chi-sono.html" data-i18n="nav.about">Bio</a>
+    <a href="contatti.html" data-i18n="nav.contact">Contatti</a>
+    <div class="lang-switcher" style="margin-left:0; margin-top:1rem;">
+      <button class="lang-switcher__btn" data-lang="it">IT</button>
+      <span class="lang-switcher__sep"></span>
+      <button class="lang-switcher__btn" data-lang="en">EN</button>
+    </div>
+  </div>
+
+  <div class="portfolio-hero container">
+    <p class="label fade-in" data-i18n="portfolio.label">Lavori selezionati</p>
+    <h1 class="fade-in fade-in-delay-1" data-i18n="portfolio.h1">Lavori</h1>
+  </div>
+
+  <div class="container">
+    <div class="portfolio-filter fade-in">
+      <button class="filter-btn active" data-filter="all" data-i18n="filter.all">Tutti</button>
+      <button class="filter-btn" data-filter="residenziale" data-i18n="filter.residential">Residenziale</button>
+      <button class="filter-btn" data-filter="commerciale" data-i18n="filter.commercial">Commerciale</button>
+    </div>
+
+    <div class="portfolio-grid" id="portfolio-grid">
+      <a href="projects/little-house.html" class="portfolio-item fade-in" data-category="residenziale">
+        <img src="images/little-house/01.jpg" alt="Little House" loading="lazy" />
+        <div class="portfolio-item__overlay">
+          <div class="portfolio-item__info">
+            <p class="label" data-i18n="portfolio.littlehouse.label">Residenziale</p>
+            <h3>Little House</h3>
+          </div>
+        </div>
+      </a>
+
+      <a href="projects/timeless-house.html" class="portfolio-item fade-in fade-in-delay-1" data-category="residenziale">
+        <img src="images/timeless-house/01.jpg" alt="Timeless House" loading="lazy" />
+        <div class="portfolio-item__overlay">
+          <div class="portfolio-item__info">
+            <p class="label" data-i18n="portfolio.timeless.label">Residenziale</p>
+            <h3>Timeless House</h3>
+          </div>
+        </div>
+      </a>
+
+      <a href="projects/eclipse.html" class="portfolio-item fade-in" data-category="commerciale">
+        <img src="images/eclipse/02.jpg" alt="Eclipse Bar Lounge" loading="lazy" />
+        <div class="portfolio-item__overlay">
+          <div class="portfolio-item__info">
+            <p class="label" data-i18n="portfolio.eclipse.label">Hospitality</p>
+            <h3>Eclipse</h3>
+          </div>
+        </div>
+      </a>
+
+      <a href="projects/savasta-partners.html" class="portfolio-item fade-in fade-in-delay-1" data-category="commerciale">
+        <img src="images/savasta-partners/01.jpg" alt="Savasta & Partners" loading="lazy" />
+        <div class="portfolio-item__overlay">
+          <div class="portfolio-item__info">
+            <p class="label" data-i18n="portfolio.savasta.label">Commerciale</p>
+            <h3>Savasta &amp; Partners</h3>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <section class="contact-cta">
+    <div class="container">
+      <p class="label" style="color:rgba(255,255,255,.5); margin-bottom:1rem;" data-i18n="portfolio.cta.label">Parliamo del tuo spazio</p>
+      <h2 data-i18n="portfolio.cta.h2">Hai un progetto?</h2>
+      <p data-i18n="portfolio.cta.p">Ogni ambiente può diventare qualcosa di straordinario.</p>
+      <a href="contatti.html" class="btn btn--light" data-i18n="portfolio.cta.btn">Contattami</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="index.html" class="footer__logo">
+          <img src="images/logo-footer.svg" class="footer__logo-img" alt="Giulia Sorrentino Interiors" />
+        </a>
+        <nav class="footer__links">
+          <a href="index.html" data-i18n="nav.portfolio">Lavori</a>
+          <a href="chi-sono.html" data-i18n="nav.about">Bio</a>
+          <a href="contatti.html" data-i18n="nav.contact">Contatti</a>
+        </nav>
+        <p class="footer__copy" data-i18n="footer.copy">&copy; 2025 Giulia Sorrentino Interiors. Tutti i diritti riservati.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/393406487121" class="whatsapp-fab" target="_blank" rel="noopener noreferrer" aria-label="Contatta su WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.558 4.12 1.535 5.845L0 24l6.335-1.509A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.017-1.377l-.36-.214-3.727.978.999-3.636-.234-.374A9.818 9.818 0 1112 21.818z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+  <script src="js/i18n.js"></script>
+  <script>
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        const filter = btn.dataset.filter;
+        portfolioItems.forEach(item => {
+          if (filter === 'all' || item.dataset.category === filter) {
+            item.removeAttribute('hidden');
+          } else {
+            item.setAttribute('hidden', '');
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contatti — Giulia Sorrentino Interiors</title>
+  <meta name="description" content="Contatta Giulia Sorrentino per il tuo progetto di interior design in Sardegna, Cagliari o Milano." />
+  <meta name="keywords" content="contatti interior designer Sardegna, interior design Cagliari, interior design Milano" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <form name="contatto" netlify netlify-honeypot="bot-field" hidden>
+    <input type="text" name="nome" />
+    <input type="text" name="cognome" />
+    <input type="email" name="email" />
+    <input type="tel" name="telefono" />
+    <input type="text" name="tipo-progetto" />
+    <textarea name="messaggio"></textarea>
+  </form>
+
+  <nav class="nav scrolled">
+    <a href="index.html" class="nav__logo">
+      <span class="nav__logo-name" data-i18n="nav.logo-name">Giulia Sorrentino</span>
+      <span class="nav__logo-sub" data-i18n="nav.logo-sub">Interiors</span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="index.html" data-i18n="nav.portfolio">Lavori</a></li>
+      <li><a href="chi-sono.html" data-i18n="nav.about">Bio</a></li>
+      <li><a href="contatti.html" class="active" data-i18n="nav.contact">Contatti</a></li>
+    </ul>
+    <div class="lang-switcher">
+      <button class="lang-switcher__btn" data-lang="it">IT</button>
+      <span class="lang-switcher__sep"></span>
+      <button class="lang-switcher__btn" data-lang="en">EN</button>
+    </div>
+    <button class="nav__hamburger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="nav__mobile">
+    <a href="index.html" data-i18n="nav.portfolio">Lavori</a>
+    <a href="chi-sono.html" data-i18n="nav.about">Bio</a>
+    <a href="contatti.html" data-i18n="nav.contact">Contatti</a>
+    <div class="lang-switcher" style="margin-left:0; margin-top:1rem;">
+      <button class="lang-switcher__btn" data-lang="it">IT</button>
+      <span class="lang-switcher__sep"></span>
+      <button class="lang-switcher__btn" data-lang="en">EN</button>
+    </div>
+  </div>
+
+  <section class="contact-page">
+    <div class="container">
+      <div class="contact-page__grid">
+
+        <div class="contact-info fade-in">
+          <p class="label" data-i18n="contact.label">Parliamo</p>
+          <h2 data-i18n="contact.h2">Raccontami<br>il tuo progetto</h2>
+          <p data-i18n="contact.p">Che si tratti di una ristrutturazione completa, di un nuovo spazio commerciale o di una semplice consulenza di styling, sono qui per ascoltarti e trovare insieme la soluzione giusta.</p>
+
+          <div class="contact-details">
+            <div class="contact-detail">
+              <p class="label" data-i18n="contact.email.label">Email</p>
+              <a href="mailto:giuliasorrentinointeriors@gmail.com">giuliasorrentinointeriors@gmail.com</a>
+            </div>
+            <div class="contact-detail">
+              <p class="label" data-i18n="contact.phone.label">Telefono</p>
+              <a href="tel:+393406487121">+39 340 648 7121</a>
+            </div>
+            <div class="contact-detail">
+              <p class="label" data-i18n="contact.ig.label">Instagram</p>
+              <a href="https://instagram.com/giuliasorrentino_interiors" target="_blank" rel="noopener noreferrer">@giuliasorrentino_interiors</a>
+            </div>
+            <div class="contact-detail">
+              <p class="label" data-i18n="contact.location.label">Operativa in</p>
+              <span data-i18n="contact.location.value">Italia</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="fade-in fade-in-delay-1">
+          <form
+            id="contact-form"
+            class="contact-form"
+            name="contatto"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="form-name" value="contatto" />
+            <p style="display:none;"><input name="bot-field" /></p>
+
+            <div class="form-grid-2">
+              <div class="form-group">
+                <label for="nome" data-i18n-label="contact.f.nome">Nome</label>
+                <input type="text" id="nome" name="nome" required data-i18n-ph="contact.f.nome" placeholder="Il tuo nome" />
+              </div>
+              <div class="form-group">
+                <label for="cognome" data-i18n-label="contact.f.cognome">Cognome</label>
+                <input type="text" id="cognome" name="cognome" data-i18n-ph="contact.f.cognome" placeholder="Il tuo cognome" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email" data-i18n-label="contact.f.email">Email</label>
+              <input type="email" id="email" name="email" required placeholder="tua@email.com" />
+            </div>
+
+            <div class="form-group">
+              <label for="telefono" data-i18n-label="contact.f.tel">Telefono</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="+39 000 000 0000" />
+            </div>
+
+            <div class="form-group">
+              <label for="tipo-progetto" data-i18n-label="contact.f.tipo">Tipo di progetto</label>
+              <input type="text" id="tipo-progetto" name="tipo-progetto" data-i18n-ph="contact.f.tipo.ph" placeholder="es. Appartamento privato, Ufficio, Ristorante…" />
+            </div>
+
+            <div class="form-group">
+              <label for="messaggio" data-i18n-label="contact.f.msg">Messaggio</label>
+              <textarea id="messaggio" name="messaggio" required data-i18n-ph="contact.f.msg.ph" placeholder="Raccontami il tuo spazio, le tue esigenze, i tuoi sogni…"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--dark" style="align-self:flex-start;" data-i18n="contact.f.submit">Invia il messaggio</button>
+          </form>
+
+          <div id="form-success" class="form-success" data-i18n="contact.f.success">
+            <strong>Grazie!</strong> Il tuo messaggio è stato inviato. Ti risponderò il prima possibile.
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="index.html" class="footer__logo">
+          <img src="images/logo-footer.svg" class="footer__logo-img" alt="Giulia Sorrentino Interiors" />
+        </a>
+        <nav class="footer__links">
+          <a href="index.html" data-i18n="nav.portfolio">Lavori</a>
+          <a href="chi-sono.html" data-i18n="nav.about">Bio</a>
+          <a href="contatti.html" data-i18n="nav.contact">Contatti</a>
+        </nav>
+        <p class="footer__copy" data-i18n="footer.copy">&copy; 2024 Giulia Sorrentino Interiors. Tutti i diritti riservati.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/393406487121" class="whatsapp-fab" target="_blank" rel="noopener noreferrer" aria-label="Contatta su WhatsApp">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.124.558 4.12 1.535 5.845L0 24l6.335-1.509A11.954 11.954 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.017-1.377l-.36-.214-3.727.978.999-3.636-.234-.374A9.818 9.818 0 1112 21.818z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
+  <script src="js/i18n.js"></script>
+</body>
+</html>
+
