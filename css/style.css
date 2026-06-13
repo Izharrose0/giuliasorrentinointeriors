@@ -943,6 +943,10 @@ section { padding: 5rem 0; }
   margin-bottom: 2.5rem;
 }
 
+.footer__cta .label {
+  color: rgba(255,255,255,0.55);
+}
+
 .footer__cta h3 {
   font-family: var(--font-serif);
   font-size: clamp(1.6rem, 3vw, 2.4rem);
@@ -950,6 +954,16 @@ section { padding: 5rem 0; }
   color: var(--white);
   letter-spacing: 0.02em;
   margin: 0;
+}
+
+.footer__cta__desc {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.65;
+  color: rgba(255,255,255,0.55);
+  margin: 0;
+  max-width: 38ch;
 }
 
 .footer__inner {
@@ -1199,7 +1213,7 @@ section { padding: 5rem 0; }
   .nav__mobile { display: flex; }
 
   /* Nav logo centrato su mobile */
-  .nav { justify-content: flex-end; }
+  .nav { justify-content: space-between; }
   .nav > .lang-switcher { display: none; }
   .nav__logo {
     position: absolute;
@@ -1207,6 +1221,12 @@ section { padding: 5rem 0; }
     transform: translateX(-50%);
     width: 238px;
     flex: none;
+  }
+  /* spacer invisibile a sinistra per bilanciare l'hamburger a destra */
+  .nav::before {
+    content: '';
+    width: 30px;
+    flex-shrink: 0;
   }
 
   .projects-grid {
