@@ -147,6 +147,8 @@ const translations = {
     'contact.f.success': '<strong>Grazie!</strong> Il tuo messaggio è stato inviato. Ti risponderò il prima possibile.',
 
     /* Footer */
+    'footer.cta.h3': 'Hai un progetto?',
+    'footer.cta.btn': 'Contattami',
     'footer.copy': '&copy; 2025 Giulia Sorrentino Interiors. Tutti i diritti riservati.',
 
     /* Portrait placeholder */
@@ -298,6 +300,8 @@ const translations = {
     'contact.f.success': '<strong>Thank you!</strong> Your message has been sent. I\'ll get back to you as soon as possible.',
 
     /* Footer */
+    'footer.cta.h3': 'Got a project?',
+    'footer.cta.btn': 'Contact me',
     'footer.copy': '&copy; 2025 Giulia Sorrentino Interiors. All rights reserved.',
 
     /* Portrait placeholder */
