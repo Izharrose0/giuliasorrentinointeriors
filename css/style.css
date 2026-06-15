@@ -1285,6 +1285,8 @@ section { padding: 5rem 0; }
   .footer__copy { text-align: center; width: 100%; }
   .footer__cta { padding: 2.5rem 0; margin-bottom: 2rem; }
   .about-bio__logo-img { display: none; }
+  .footer__logo { display: none; }
+  .contact-info h2 { text-align: center; }
 }
 
 @media (max-width: 600px) {
