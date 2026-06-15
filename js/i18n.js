@@ -44,8 +44,9 @@ const translations = {
     'portfolio.label': 'Lavori selezionati',
     'portfolio.h1': 'Lavori',
     'portfolio.savasta.label': 'Commerciale',
-    'portfolio.eclipse.label': 'Hospitality',
+    'portfolio.eclipse.label': 'Commerciale',
     'portfolio.littlehouse.label': 'Residenziale',
+    'portfolio.sweet.label': 'Residenziale',
     'portfolio.timeless.label': 'Residenziale',
     'portfolio.cta.label': 'Parliamo del tuo spazio',
     'portfolio.cta.h2': 'Hai un progetto?',
@@ -55,12 +56,8 @@ const translations = {
     /* Project — shared */
     'project.type': 'Tipologia',
     'project.sector': 'Settore',
-    'project.status': 'Stato',
-    'project.status.value': 'Completato',
-    'project.sqm': 'Superficie',
-    'project.intervention': 'Intervento',
-    'project.contractor': 'Impresa',
-    'project.year': 'Anno',
+    'project.year': 'Anno di realizzazione',
+    'project.location': 'Luogo',
     'project.back': '&larr; Tutti i progetti',
 
     /* Portfolio filter */
@@ -79,8 +76,9 @@ const translations = {
     'testimonials.3.name': 'Cliente — Residenziale',
 
     /* Eclipse */
-    'eclipse.sector': 'Hospitality',
-    'eclipse.type': 'Bar &middot; Lounge',
+    'eclipse.type': 'Ristorante',
+    'eclipse.sector': 'Commerciale',
+    'eclipse.year': '2025',
     'eclipse.h3': 'Un\'atmosfera che seduce',
     'eclipse.desc': 'Eclipse nasce dalla volontà di creare un luogo in cui il tempo si dilata. Il progetto gioca su contrasti sapienti: il verde salvia del bancone dialoga con il rosa cipria delle sedute, mentre l\'ottone degli elementi metallici porta calore e preziosità. Le curve morbide dei soffitti in cartongesso creano un ritmo visivo continuo, trasformando lo spazio in un\'esperienza sensoriale a tutto tondo.',
     'eclipse.next': 'Little House &rarr;',
@@ -88,14 +86,16 @@ const translations = {
     /* Little House */
     'little.type': 'Appartamento',
     'little.sector': 'Residenziale',
+    'little.year': '2025',
     'little.h3': 'Piccolo, ma niente affatto ordinario',
     'little.desc': 'Little House dimostra che le dimensioni non determinano la qualità dello spazio vissuto. Il progetto ha trasformato un appartamento compatto in un luogo ricco di personalità: legni naturali, bianco preciso e una molteplicità di soluzioni intelligenti che ampliano la percezione dello spazio. Lo specchio circolare nel corridoio, le lampade a sospensione custom, i dettagli in nero a contrasto — ogni scelta è pensata per rendere ogni metro quadro indispensabile e piacevole.',
     'little.prev': '&larr; Eclipse',
     'little.next': 'Savasta &amp; Partners &rarr;',
 
     /* Savasta */
-    'savasta.type': 'Ufficio &middot; Studio professionale',
+    'savasta.type': 'Studio medico',
     'savasta.sector': 'Commerciale',
+    'savasta.year': '2025',
     'savasta.h3': 'La natura al centro del lavoro',
     'savasta.desc': 'Savasta &amp; Partners è un progetto che reinterpreta il concetto di spazio lavorativo attraverso il design biofiliare. L\'intera reception è pensata come un\'oasi: pareti vegetali vive, illuminazione a neon curvata come un\'onda, pavimenti in marmo grigio che rispecchiano la luce del soffitto. Il bianco assoluto che domina lo spazio non è sterilità, ma apertura mentale — un ambiente pensato per ispirare chi lo abita ogni giorno.',
     'savasta.prev': '&larr; Little House',
@@ -104,10 +104,21 @@ const translations = {
     /* Timeless House */
     'timeless.type': 'Appartamento',
     'timeless.sector': 'Residenziale',
+    'timeless.year': '2024',
+    'timeless.location': 'Cagliari',
     'timeless.h3': 'Eleganza che non tramonta',
     'timeless.desc': 'Timeless House è un appartamento che non segue le mode — le trascende. Il progetto si fonda su una palette di toni neutri caldi, materiali pregiati e un\'illuminazione pensata come elemento scultoreo. Il lampadario a sfere che domina la zona pranzo diventa il punto focale di un open space fluido, dove cucina, living e zona pranzo si fondono in un dialogo continuo. I dettagli in legno scuro e le superfici in acciaio satinato aggiungono profondità senza appesantire.',
     'timeless.prev': '&larr; Savasta &amp; Partners',
-    'timeless.next': 'Tutti i progetti &rarr;',
+    'timeless.next': 'Home Sweet Home &rarr;',
+
+    /* Home Sweet Home */
+    'sweet.type': 'Appartamento',
+    'sweet.sector': 'Residenziale',
+    'sweet.year': '2025',
+    'sweet.h3': 'Uno spazio che racconta chi siamo',
+    'sweet.desc': 'Home Sweet Home è un progetto residenziale che interpreta l\'abitare nella sua forma più autentica. Ogni ambiente è stato pensato per rispecchiare la personalità di chi lo vive: tonalità calde, materiali scelti con cura e una luce che cambia il carattere dello spazio nel corso della giornata. Un appartamento che diventa davvero casa.',
+    'sweet.prev': '&larr; Timeless House',
+    'sweet.next': 'Tutti i progetti &rarr;',
 
     /* About */
     'bio.quote': 'Credo che la cura di ogni dettaglio sia un modo per mostrare amore, e che il vero lusso sia qualcosa di ben fatto',
@@ -199,7 +210,8 @@ const translations = {
     'portfolio.label': 'Selected works',
     'portfolio.h1': 'Works',
     'portfolio.savasta.label': 'Commercial',
-    'portfolio.eclipse.label': 'Hospitality',
+    'portfolio.eclipse.label': 'Commercial',
+    'portfolio.sweet.label': 'Residential',
     'portfolio.littlehouse.label': 'Residential',
     'portfolio.timeless.label': 'Residential',
     'portfolio.cta.label': 'Let\'s talk about your space',
@@ -210,12 +222,8 @@ const translations = {
     /* Project — shared */
     'project.type': 'Type',
     'project.sector': 'Sector',
-    'project.status': 'Status',
-    'project.status.value': 'Completed',
-    'project.sqm': 'Area',
-    'project.intervention': 'Intervention',
-    'project.contractor': 'Contractor',
-    'project.year': 'Year',
+    'project.year': 'Year of completion',
+    'project.location': 'Location',
     'project.back': '&larr; All projects',
 
     /* Portfolio filter */
@@ -234,8 +242,9 @@ const translations = {
     'testimonials.3.name': 'Client — Residential',
 
     /* Eclipse */
-    'eclipse.sector': 'Hospitality',
-    'eclipse.type': 'Bar &middot; Lounge',
+    'eclipse.type': 'Restaurant',
+    'eclipse.sector': 'Commercial',
+    'eclipse.year': '2025',
     'eclipse.h3': 'An atmosphere that seduces',
     'eclipse.desc': 'Eclipse was born from the desire to create a place where time expands. The project plays on deliberate contrasts: the sage green of the counter dialogues with dusty pink seating, while the brass metalwork brings warmth and richness. The soft curves of the plasterboard ceilings create a continuous visual rhythm, transforming the space into a complete sensory experience.',
     'eclipse.next': 'Little House &rarr;',
@@ -243,14 +252,16 @@ const translations = {
     /* Little House */
     'little.type': 'Apartment',
     'little.sector': 'Residential',
+    'little.year': '2025',
     'little.h3': 'Small, but far from ordinary',
     'little.desc': 'Little House proves that size doesn\'t determine the quality of living space. The project transformed a compact apartment into a character-rich home: natural woods, precise whites, and a wealth of intelligent solutions that enhance spatial perception. The circular mirror in the hallway, the custom pendant lamps, the contrasting black details — every choice is made to render every square metre indispensable and pleasurable.',
     'little.prev': '&larr; Eclipse',
     'little.next': 'Savasta &amp; Partners &rarr;',
 
     /* Savasta */
-    'savasta.type': 'Office &middot; Professional studio',
+    'savasta.type': 'Medical studio',
     'savasta.sector': 'Commercial',
+    'savasta.year': '2025',
     'savasta.h3': 'Nature at the heart of work',
     'savasta.desc': 'Savasta &amp; Partners reimagines the concept of workspace through biophilic design. The entire reception is conceived as an oasis: living green walls, neon lighting curved like a wave, grey marble floors that mirror the ceiling\'s light. The absolute white that dominates the space is not sterility, but openness — an environment designed to inspire everyone who inhabits it each day.',
     'savasta.prev': '&larr; Little House',
@@ -259,10 +270,21 @@ const translations = {
     /* Timeless House */
     'timeless.type': 'Apartment',
     'timeless.sector': 'Residential',
+    'timeless.year': '2024',
+    'timeless.location': 'Cagliari',
     'timeless.h3': 'Elegance that never fades',
     'timeless.desc': 'Timeless House is an apartment that doesn\'t follow trends — it transcends them. The project is built on a palette of warm neutral tones, refined materials, and lighting conceived as a sculptural element. The sphere chandelier dominating the dining area becomes the focal point of a fluid open space, where kitchen, living and dining merge in continuous dialogue. Dark wood details and satin steel surfaces add depth without weight.',
     'timeless.prev': '&larr; Savasta &amp; Partners',
-    'timeless.next': 'All projects &rarr;',
+    'timeless.next': 'Home Sweet Home &rarr;',
+
+    /* Home Sweet Home */
+    'sweet.type': 'Apartment',
+    'sweet.sector': 'Residential',
+    'sweet.year': '2025',
+    'sweet.h3': 'A space that reflects who we are',
+    'sweet.desc': 'Home Sweet Home is a residential project that interprets living in its most authentic form. Every room has been designed to reflect the personality of those who inhabit it: warm tones, carefully chosen materials, and a light that changes the character of the space throughout the day. An apartment that truly becomes home.',
+    'sweet.prev': '&larr; Timeless House',
+    'sweet.next': 'All projects &rarr;',
 
     /* About */
     'bio.quote': 'I believe that caring for every detail is a way of showing love, and that true luxury is something beautifully made',
