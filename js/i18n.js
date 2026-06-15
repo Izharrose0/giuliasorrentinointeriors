@@ -162,7 +162,7 @@ const translations = {
     'footer.cta.h3': 'Hai un progetto?',
     'footer.cta.desc': 'Ogni ambiente può diventare qualcosa di straordinario.',
     'footer.cta.btn': 'Contattami',
-    'footer.copy': '&copy; 2025 Giulia Sorrentino Interiors. Tutti i diritti riservati.',
+    'footer.copy': '&copy; 2022 Giulia Sorrentino Interiors. Tutti i diritti riservati.',
 
     /* Portrait placeholder */
     'portrait.placeholder': 'Giulia Sorrentino',
@@ -328,7 +328,7 @@ const translations = {
     'footer.cta.h3': 'Got a project?',
     'footer.cta.desc': 'Every space can become something extraordinary.',
     'footer.cta.btn': 'Contact me',
-    'footer.copy': '&copy; 2025 Giulia Sorrentino Interiors. All rights reserved.',
+    'footer.copy': '&copy; 2022 Giulia Sorrentino Interiors. All rights reserved.',
 
     /* Portrait placeholder */
     'portrait.placeholder': 'Giulia Sorrentino',
