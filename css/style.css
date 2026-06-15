@@ -1002,6 +1002,23 @@ section { padding: 5rem 0; }
 
 .footer__links a:hover { color: rgba(255,255,255,0.9); }
 
+.footer__social {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.footer__social a {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 300;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.45);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+.footer__social a:hover { color: rgba(255,255,255,0.9); }
+
 .footer__copy {
   font-size: 0.72rem;
   width: 100%;
@@ -1286,6 +1303,7 @@ section { padding: 5rem 0; }
   .footer__cta { padding: 2.5rem 0; margin-bottom: 2rem; }
   .about-bio__logo-img { display: none; }
   .footer__logo { display: none; }
+  .footer__social { justify-content: center; }
   .contact-info h2 { text-align: center; }
 }
 
