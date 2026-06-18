@@ -1301,8 +1301,14 @@ section { padding: 5rem 0; }
     grid-row: 3;
   }
 
-  .contact-page__grid { grid-template-columns: 1fr; gap: 3rem; }
+  .contact-page__grid { grid-template-columns: 1fr; gap: 2rem; }
   .form-grid-2 { grid-template-columns: 1fr; }
+  .contact-info { text-align: center; }
+  .contact-info h2 { text-align: center; }
+  .contact-details { align-items: center; }
+  .contact-detail { text-align: center; width: 100%; }
+  .contact-form { align-items: stretch; }
+  .contact-form .btn { display: block; margin: 0 auto; }
 
   .services__list { grid-template-columns: 1fr; }
 
