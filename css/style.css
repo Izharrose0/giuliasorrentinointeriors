@@ -1309,6 +1309,8 @@ section { padding: 5rem 0; }
   .contact-detail { text-align: center; width: 100%; }
   .contact-form { align-items: stretch; }
   .contact-form .btn { display: block; margin: 0 auto; }
+  .form-group label { text-align: center; }
+  .contact-page .container { padding-left: 1rem; padding-right: 1rem; }
 
   .services__list { grid-template-columns: 1fr; }
 
