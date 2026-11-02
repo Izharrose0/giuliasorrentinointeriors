@@ -6,6 +6,7 @@ const translations = {
   it: {
     /* Navigation */
     'nav.portfolio': 'Lavori',
+    'nav.shared': 'Lavori condivisi',
     'nav.about': 'Bio',
     'nav.contact': 'Contatti',
     'nav.logo': 'Giulia Sorrentino Interiors',
@@ -88,7 +89,7 @@ const translations = {
     'little.sector': 'Residenziale',
     'little.year': '2025',
     'little.h3': 'Piccolo, ma niente affatto ordinario',
-    'little.desc': 'Little House dimostra che le dimensioni non determinano la qualità dello spazio vissuto. Il progetto ha trasformato un appartamento compatto in un luogo ricco di personalità: legni naturali, bianco preciso e una molteplicità di soluzioni intelligenti che ampliano la percezione dello spazio. Lo specchio circolare nel corridoio, le lampade a sospensione custom, i dettagli in nero a contrasto — ogni scelta è pensata per rendere ogni metro quadro indispensabile e piacevole.',
+    'little.desc': 'Little House dimostra che le dimensioni non determinano la qualità dello spazio vissuto. Il progetto ha trasformato un appartamento compatto in un luogo ricco di personalità: legni naturali, bianco diffuso e una molteplicità di soluzioni intelligenti che ampliano la percezione dello spazio. Lo specchio circolare nel living, le lampade a sospensione custom, i dettagli in nero a contrasto — ogni scelta è pensata per sfruttare al meglio lo spazio e renderlo scenografico allo stesso tempo.',
     'little.prev': '&larr; Eclipse',
     'little.next': 'Savasta &amp; Partners &rarr;',
 
@@ -119,6 +120,36 @@ const translations = {
     'sweet.desc': 'Home Sweet Home è un progetto residenziale che interpreta l\'abitare nella sua forma più autentica. Ogni ambiente è stato pensato per rispecchiare la personalità di chi lo vive: tonalità calde, materiali scelti con cura e una luce che cambia il carattere dello spazio nel corso della giornata. Un appartamento che diventa davvero casa.',
     'sweet.prev': '&larr; Timeless House',
     'sweet.next': 'Tutti i progetti &rarr;',
+
+    /* Lavori condivisi */
+    'shared.label': 'Progetti in collaborazione',
+    'shared.h1': 'Lavori condivisi',
+    'project.collab': 'Progetto',
+    'project.shared': 'Condiviso',
+
+    /* Chill Home */
+    'chill.type': 'Villa',
+    'chill.sector': 'Residenziale',
+    'chill.h3': 'Luce, materia e calma',
+    'chill.desc': 'Chill Home è una casa pensata per rallentare. Gli ambienti a doppia altezza si aprono sul giardino, mentre materiali naturali e toni neutri costruiscono un\'atmosfera morbida e accogliente: il rovere chiaro, la pietra dell\'isola cucina, i tessuti bouclé. Lo specchio ad arco, le sfere in vetro sospese e i dettagli in ottone dei bagni aggiungono eleganza senza mai alzare la voce.',
+    'chill.prev': '&larr; Lavori condivisi',
+    'chill.next': 'Fresh House &rarr;',
+
+    /* Fresh House */
+    'fresh.type': 'Appartamento',
+    'fresh.sector': 'Residenziale',
+    'fresh.h3': 'Una casa che respira',
+    'fresh.desc': 'Fresh House gioca con una palette fresca e leggera: verde acqua, rosa cipria e bianco si alternano al legno chiaro e al verde delle piante, creando un ambiente luminoso e vivo. La libreria a parete diventa una piccola galleria di oggetti, ceramiche e luci, mentre le grandi lampade in carta diffondono una luce morbida su tutto il living.',
+    'fresh.prev': '&larr; Chill Home',
+    'fresh.next': 'Funny House &rarr;',
+
+    /* Funny House */
+    'funny.type': 'Appartamento',
+    'funny.sector': 'Residenziale',
+    'funny.h3': 'Colore e leggerezza',
+    'funny.desc': 'Funny House è una casa allegra, che non si prende troppo sul serio. Pareti rosa cipria, parquet a spina di pesce e una cucina bianca accesa da elettrodomestici color menta compongono uno spazio luminoso e giocoso. Arte, colore e pezzi di design iconici raccontano la personalità di chi la abita, in equilibrio tra funzionalità e ironia.',
+    'funny.prev': '&larr; Fresh House',
+    'funny.next': 'Tutti i lavori condivisi &rarr;',
 
     /* About */
     'bio.quote': 'Credo che la cura di ogni dettaglio sia un modo per mostrare amore, e che il vero lusso sia qualcosa di ben fatto',
@@ -172,6 +203,7 @@ const translations = {
   en: {
     /* Navigation */
     'nav.portfolio': 'Works',
+    'nav.shared': 'Shared works',
     'nav.about': 'Bio',
     'nav.contact': 'Contact',
     'nav.logo': 'Giulia Sorrentino Interiors',
@@ -254,7 +286,7 @@ const translations = {
     'little.sector': 'Residential',
     'little.year': '2025',
     'little.h3': 'Small, but far from ordinary',
-    'little.desc': 'Little House proves that size doesn\'t determine the quality of living space. The project transformed a compact apartment into a character-rich home: natural woods, precise whites, and a wealth of intelligent solutions that enhance spatial perception. The circular mirror in the hallway, the custom pendant lamps, the contrasting black details — every choice is made to render every square metre indispensable and pleasurable.',
+    'little.desc': 'Little House proves that size doesn\'t determine the quality of living space. The project transformed a compact apartment into a character-rich home: natural woods, soft diffused whites, and a wealth of intelligent solutions that enhance spatial perception. The circular mirror in the living room, the custom pendant lamps, the contrasting black details — every choice is made to get the most out of the space while making it scenographic at the same time.',
     'little.prev': '&larr; Eclipse',
     'little.next': 'Savasta &amp; Partners &rarr;',
 
@@ -285,6 +317,36 @@ const translations = {
     'sweet.desc': 'Home Sweet Home is a residential project that interprets living in its most authentic form. Every room has been designed to reflect the personality of those who inhabit it: warm tones, carefully chosen materials, and a light that changes the character of the space throughout the day. An apartment that truly becomes home.',
     'sweet.prev': '&larr; Timeless House',
     'sweet.next': 'All projects &rarr;',
+
+    /* Shared works */
+    'shared.label': 'Collaborative projects',
+    'shared.h1': 'Shared works',
+    'project.collab': 'Project',
+    'project.shared': 'Shared',
+
+    /* Chill Home */
+    'chill.type': 'Villa',
+    'chill.sector': 'Residential',
+    'chill.h3': 'Light, texture and calm',
+    'chill.desc': 'Chill Home is a house designed for slowing down. Double-height spaces open onto the garden, while natural materials and neutral tones build a soft, welcoming atmosphere: pale oak, the stone of the kitchen island, bouclé fabrics. The arched mirror, the suspended glass spheres and the brass details in the bathrooms add elegance without ever raising their voice.',
+    'chill.prev': '&larr; Shared works',
+    'chill.next': 'Fresh House &rarr;',
+
+    /* Fresh House */
+    'fresh.type': 'Apartment',
+    'fresh.sector': 'Residential',
+    'fresh.h3': 'A home that breathes',
+    'fresh.desc': 'Fresh House plays with a fresh, light palette: aqua green, powder pink and white alternate with pale wood and greenery, creating a bright, lively space. The wall shelving becomes a small gallery of objects, ceramics and lights, while large paper lanterns cast a soft glow over the whole living area.',
+    'fresh.prev': '&larr; Chill Home',
+    'fresh.next': 'Funny House &rarr;',
+
+    /* Funny House */
+    'funny.type': 'Apartment',
+    'funny.sector': 'Residential',
+    'funny.h3': 'Colour and lightness',
+    'funny.desc': 'Funny House is a cheerful home that doesn\'t take itself too seriously. Powder-pink walls, herringbone parquet and a white kitchen brightened by mint appliances create a luminous, playful space. Art, colour and iconic design pieces tell the story of the people who live there, balancing function and wit.',
+    'funny.prev': '&larr; Fresh House',
+    'funny.next': 'All shared works &rarr;',
 
     /* About */
     'bio.quote': 'I believe that caring for every detail is a way of showing love, and that true luxury is something beautifully made',
