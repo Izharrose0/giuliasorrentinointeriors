@@ -150,10 +150,12 @@ function showLightboxImage() {
   overlay.className = 'page-overlay';
   document.body.appendChild(overlay);
 
-  // Fade in on load
-  window.addEventListener('load', () => {
-    overlay.classList.remove('active');
-  });
+  // Fade in on load — and on back/forward navigation, where the browser
+  // restores the page from its cache with the overlay still active
+  const hideOverlay = () => overlay.classList.remove('active');
+  window.addEventListener('load', hideOverlay);
+  window.addEventListener('pageshow', hideOverlay);
+  window.addEventListener('popstate', hideOverlay);
 
   // Fade out on internal link click
   document.querySelectorAll('a[href]').forEach(a => {
