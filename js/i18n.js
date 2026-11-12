@@ -125,7 +125,7 @@ const translations = {
     'shared.label': 'Progetti in collaborazione',
     'shared.h1': 'Lavori condivisi',
     'project.collab': 'Progetto',
-    'project.shared': 'Condiviso',
+    'project.shared': 'In collaborazione con Laura Pisu',
 
     /* Chill Home */
     'chill.type': 'Villa',
@@ -322,7 +322,7 @@ const translations = {
     'shared.label': 'Collaborative projects',
     'shared.h1': 'Shared works',
     'project.collab': 'Project',
-    'project.shared': 'Shared',
+    'project.shared': 'In collaboration with Laura Pisu',
 
     /* Chill Home */
     'chill.type': 'Villa',
